@@ -1,4 +1,7 @@
 {
+  "import/resolver": {
+    "typescript": { "project": "./" }
+  },
   "extends": ["next/core-web-vitals", "plugin:import/recommended", "plugin:import/warnings"],
   "rules": {
     "import/order": [
