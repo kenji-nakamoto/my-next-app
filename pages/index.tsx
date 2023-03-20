@@ -1,8 +1,8 @@
-import { client } from 'libs/cms-client'
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import { client } from 'libs/cms-client'
+import styles from 'styles/Home.module.scss'
 import { Article } from 'types/articles'
-import styles from '../styles/Home.module.scss'
 
 type Props = {
   articles: Article[]

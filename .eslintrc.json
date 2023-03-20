@@ -1,7 +1,4 @@
 {
-  "import/resolver": {
-    "typescript": { "project": "./" }
-  },
   "extends": ["next/core-web-vitals", "plugin:import/recommended", "plugin:import/warnings"],
   "rules": {
     "import/order": [
@@ -29,5 +26,10 @@
     "arrow-spacing": ["warn", { "before": true, "after": true }],
     "keyword-spacing": ["warn", { "before": true, "after": true }],
     "key-spacing": ["warn", { "afterColon": true }]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": { "project": "./" }
+    }
   }
 }

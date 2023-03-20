@@ -1,5 +1,5 @@
-import { client } from 'libs/cms-client'
 import type { NextPage, GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next'
+import { client } from 'libs/cms-client'
 import { Article } from 'types/articles'
 
 type Props = {
