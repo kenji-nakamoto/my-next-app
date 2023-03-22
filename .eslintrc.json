@@ -9,7 +9,7 @@
         }
       }
     ],
-    "no-console": "off",
+    "no-console": "warn",
     "quotes": ["error", "single"],
     "no-undef": "error",
     "no-unused-vars": "warn",
