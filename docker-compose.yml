@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  media:
+    container_name: knot
+    build: .
+    ports:
+      - 9090:3000
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+
+    command: /bin/ash -c "npm run dev"
